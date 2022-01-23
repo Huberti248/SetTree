@@ -1,0 +1,4 @@
+#Sat Dec 11 17:25:29 CET 2021
+base.0=C\:\\home\\dev\\SetThree\\android\\app\\build\\intermediates\\dex\\release\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

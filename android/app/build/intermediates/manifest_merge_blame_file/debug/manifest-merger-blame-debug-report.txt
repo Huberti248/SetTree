@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Replace com.test.game with the identifier of your game below, e.g.
+4     com.gamemaker.game
+5-->
+6<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+7    package="org.libsdl.app"
+8    android:installLocation="auto"
+9    android:versionCode="1"
+10    android:versionName="1.0" >
+11
+12    <uses-sdk
+13        android:minSdkVersion="16"
+13-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml
+14        android:targetSdkVersion="30" />
+14-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml
+15
+16    <!-- OpenGL ES 2.0 -->
+17    <uses-feature android:glEsVersion="0x00020000" />
+17-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:12:5-54
+17-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:12:19-51
+18
+19    <!-- Touchscreen support -->
+20    <uses-feature
+20-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:15:5-17:36
+21        android:name="android.hardware.touchscreen"
+21-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:16:9-52
+22        android:required="false" />
+22-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:17:9-33
+23
+24    <!-- Game controller support -->
+25    <uses-feature
+25-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:20:5-22:36
+26        android:name="android.hardware.bluetooth"
+26-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:21:9-50
+27        android:required="false" />
+27-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:22:9-33
+28    <uses-feature
+28-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:23:5-25:36
+29        android:name="android.hardware.gamepad"
+29-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:24:9-48
+30        android:required="false" />
+30-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:25:9-33
+31    <uses-feature
+31-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:26:5-28:36
+32        android:name="android.hardware.usb.host"
+32-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:27:9-49
+33        android:required="false" />
+33-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:28:9-33
+34
+35    <!-- External mouse input events -->
+36    <uses-feature
+36-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:31:5-33:36
+37        android:name="android.hardware.type.pc"
+37-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:32:9-48
+38        android:required="false" />
+38-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:33:9-33
+39
+40    <!-- Audio recording support -->
+41    <!-- if you want to capture audio, uncomment this. -->
+42    <!--
+43         <uses-feature
+44        android:name="android.hardware.microphone"
+45        android:required="false" />
+46    -->
+47
+48
+49    <!-- Allow writing to external storage -->
+50    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+50-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:42:5-81
+50-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:42:22-78
+51    <!-- Allow access to Bluetooth devices -->
+52    <uses-permission android:name="android.permission.BLUETOOTH" />
+52-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:44:5-68
+52-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:44:22-65
+53    <!-- Allow access to the vibrator -->
+54    <uses-permission android:name="android.permission.VIBRATE" />
+54-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:46:5-66
+54-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:46:22-63
+55    <uses-permission android:name="android.permission.INTERNET" />
+55-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:48:5-67
+55-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:48:22-64
+56
+57    <!-- if you want to capture audio, uncomment this. -->
+58    <!-- <uses-permission android:name="android.permission.RECORD_AUDIO" /> -->
+59    <!--
+60 Create a Java class extending SDLActivity and place it in a
+61         directory under app/src/main/java matching the package, e.g. app/src/main/java/com/gamemaker/game/MyGame.java
+62 
+63         then replace "SDLActivity" with the name of your class (e.g. "MyGame")
+64         in the XML below.
+65
+66         An example Java class can be found in README-android.md
+67    -->
+68    <application
+68-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:61:5-90:19
+69        android:allowBackup="true"
+69-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:63:9-35
+70        android:debuggable="true"
+71        android:hardwareAccelerated="true"
+71-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:65:9-43
+72        android:icon="@mipmap/ic_launcher"
+72-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:62:9-43
+73        android:label="@string/app_name"
+73-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:61:18-50
+74        android:testOnly="true"
+75        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+75-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:64:9-67
+76
+77        <!--
+78        Example of setting SDL hints from AndroidManifest.xml:
+79        <meta-data android:name="SDL_ENV.SDL_ACCELEROMETER_AS_JOYSTICK" android:value="0"/>
+80        -->
+81
+82        <activity
+82-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:71:9-89:20
+83            android:name="org.libsdl.app.SDLActivity"
+83-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:71:19-45
+84            android:alwaysRetainTaskState="true"
+84-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:73:13-49
+85            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+85-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:75:13-133
+86            android:label="@string/app_name"
+86-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:72:13-45
+87            android:launchMode="singleInstance" >
+87-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:74:13-48
+88            <intent-filter>
+88-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:77:13-80:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:78:17-69
+89-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:78:25-66
+90
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:79:17-77
+91-->C:\home\dev\SetThree\android\app\src\main\AndroidManifest.xml:79:27-74
+92            </intent-filter>
+93            <!-- Drop file event -->
+94            <!--
+95            <intent-filter>
+96                <action android:name="android.intent.action.VIEW" />
+97                <category android:name="android.intent.category.DEFAULT" />
+98                <data android:mimeType="*/*" />
+99            </intent-filter>
+100            -->
+101        </activity>
+102    </application>
+103
+104</manifest>

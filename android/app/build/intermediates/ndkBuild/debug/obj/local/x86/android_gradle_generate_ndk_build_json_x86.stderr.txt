@@ -1,0 +1,3 @@
+process_begin: CreateProcess(NULL, "", ...) failed.
+C:/Users/Hubert/AppData/Local/Android/Sdk/ndk/20.0.5594570/build//../build/core/build-binary.mk:666: Android NDK: Module main depends on undefined modules: SDL2 SDL2_image SDL2_ttf SDL2_mixer SDL2_net    
+C:/Users/Hubert/AppData/Local/Android/Sdk/ndk/20.0.5594570/build//../build/core/build-binary.mk:679: *** Android NDK: Aborting (set APP_ALLOW_MISSING_DEPS=true to allow missing dependencies)    .  Stop.

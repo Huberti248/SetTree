@@ -5,4 +5,4 @@ bin/Debug_x86/*.exe
 bin/Release_x86/*.exe
 *.pdb
 *.ilk
-android/key_password.txt
+android/keyPassword.txt
